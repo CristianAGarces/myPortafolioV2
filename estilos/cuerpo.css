@@ -1,0 +1,692 @@
+*{
+  scroll-behavior: smooth;
+}
+
+[data-aos="fade-up"],[data-aos="zoom-in-up"]{
+  scroll-margin-top: 10rem;
+}
+
+#presentacion {
+  scroll-margin-top: 8rem;
+  margin-top: 30px;
+  display: flex;
+  width: 90%;
+  height: auto;
+  justify-content: center;
+  z-index: -1;
+}
+
+.derecha {
+  width: 30%;
+}
+
+.derecha aside{
+  margin: 20px auto;
+}
+
+.izquierda {
+  width: 70%;
+  margin-left: 50px;
+}
+
+.izquierda > h1{
+  font-size: 4.6vw;
+}
+
+.izquierda > h2 {
+  font-size: 2.8vw;
+}
+.izquierda > p {
+  width: 80%;
+  font-size: 1.4vw;
+  text-align: justify;
+}
+
+.imgPresentacion {
+  border-radius: 10% ;
+  width: 95%;
+  height: 85%;
+}
+
+#about-me {
+  background-color: black;
+  color: #fff;
+  margin-top: 40px;
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.acerca-experiencia {
+  margin: auto;
+  width: 85%;
+  padding: 40px 0 0 0;
+}
+
+h2 {
+  font-size: 3rem;
+}
+.acerca-experiencia > p {
+  font-size: 1.1rem;
+}
+
+.icons {
+  justify-content: center;
+  display: flex;
+}
+
+.styleicons {
+  margin: 40px;
+  background-color: #ccc8c8;
+  border-radius: 30px;
+  line-height: 56px;
+  width: 50px;
+  height: 50px;
+}
+
+.fa-icons {
+  color: black;
+  font-size: 25px;
+}
+
+.styleicons:hover {
+  background-color: #fff;
+}
+
+#experiencia {
+  margin-top: 40px;
+  text-align: center;
+  width: 100%;
+}
+#experiencia p {
+  font-size: 1.1rem;
+}
+.proyectos {
+  margin-left: 14px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.seccion-proyecto {
+  width: 90%;
+  margin: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+.proyectos .seccion-proyecto .div-contenido p {
+  text-align: justify;
+}
+
+.proyectos .seccion-proyecto img {
+  width: 100%;
+  height: 250px;
+  border-radius: 10px;
+}
+
+.letraColor {
+  color: blue;
+}
+
+.div-contenido {
+  padding: 0 15px 15px 15px;
+}
+
+.div-contenido h3 {
+  font-size: 30px;
+}
+
+.letraColor:hover {
+  color: rgb(12, 159, 207);
+}
+
+.irSitioweb {
+  margin-top: 10px;
+  width: 100px;
+  height: 35px;
+  border-radius: 10px;
+  background-color: black;
+  outline: none;
+  color: white;
+  border: none;
+}
+
+.irSitioweb:hover {
+  background-color: #ccc8c8a1;
+}
+
+.blue:hover {
+  background-color: rgb(3, 192, 255);
+}
+
+.irSitioweb a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.arcade {
+  margin: 10px 35%;
+  width: 29.7%;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.arcade img{
+border-radius: 10px;
+  width: 100%;
+  height: 250px;
+}
+
+.arcade h3 {
+  font-size: 1.8rem;
+}
+.arcade p {
+  text-align: justify;
+}
+
+#tecnologias {
+  margin-top: 40px;
+  padding: 25px;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+  justify-content: space-between;
+}
+
+#tecnologias h2 {
+  margin-top: 30px;
+}
+
+.tecnologias1 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  padding-left: 5px;
+}
+
+.tecnologias2{
+  height: 20rem;
+}
+
+.img-tech {
+  width: 60px;
+  height: 80px;
+  margin-right: 10px;
+}
+
+.cajas-tech {
+  padding: 5px;
+  display: flex;
+  margin: 15px;
+  transition: 0.5s;
+}
+
+.cajas-tech:hover {
+  cursor: pointer;
+  margin: 10px;
+  scale: 1.1;
+  border: 3px solid #ffffff;
+  border-radius: 5px;
+  background-color: #525050;
+}
+
+.content-text {
+  text-align: left;
+}
+
+.content-text p {
+  font-size: 0.9rem;
+}
+
+#gustos {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#gustos h2 {
+  font-size: 3rem;
+}
+
+#gustos p {
+  font-size: 1.1rem;
+  width: 80%;
+}
+
+.img-gustos {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.img-misgustos {
+  width: 20%;
+  height: 200px;
+}
+
+#formulario {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #000;
+  height: auto;
+}
+
+form {
+  margin-top: 40px;
+  width: 100%;
+  margin-left: 15%;
+  margin-bottom: 40px;
+}
+
+#formulario h2{
+  color: #fff;
+}
+
+#formulario .text-form {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+input {
+  margin-top: 15px;
+  display: block;
+  width: 70%;
+  height: 5vh;
+  outline: none;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  background-color: transparent;
+}
+
+input:hover{
+  background-color: #7e787848;
+}
+
+textarea:hover{
+  background-color: #7e787848;
+}
+
+input, textarea {
+  color: #FFFFFF;
+}
+
+textarea {
+  width: 70%;
+  height: 20vh;
+  padding: 10px;
+  outline: none;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-radius: 10px;
+  margin-top: 15px;
+  background-color: transparent;
+}
+
+input[type="submit"] {
+  margin-left: 25%;
+  padding: 5px;
+  height: 30px;
+  width: 80px;
+  background: black;
+  color: white;
+  transition: 0.5s;
+}
+
+input[type="submit"]:hover {
+  scale: 1.3;
+  background-color: #7e787848;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #FFFFFF;
+}
+
+.espacio-git{
+  padding-top: 25px;
+ color: #fff;
+}
+
+.github-count .git{
+  margin-top: 20px;
+  background-color:transparent;
+  width: 80%;
+  height: auto;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  margin-bottom: 60px;
+}
+
+.espacio-git .github-count div .text-git{
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.espacio-git .github-count img{
+  border-radius: 10px;
+  width: 200px;
+  height: 150px;
+  display: block;
+  margin: auto;
+}
+
+.github-count .bio{
+  padding-top: 20px;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  
+}
+
+.github-count .location{
+  margin-top: 20px;
+  text-align: center;
+}
+
+.git a{
+  padding: 7px;
+  border-radius: 10px;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  width: 120px;
+  margin: 0 auto  20px auto;
+  text-align: center;
+  display: block;
+  transition: 0.5s;
+  text-decoration: none;
+}
+
+.git a:hover{
+  cursor: pointer;
+  background-color: #525050;
+  scale: 1.1;
+}
+
+#social{
+  padding-top: 40px;
+  margin: auto;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.img-asideSocialNet{
+  margin-top: 35px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.social-links {
+  width: 60px;
+  height: 60px;
+  margin-top: 15px;
+}
+
+.social-links img{
+  transition: 0.5s;
+}
+
+.social-links img:hover {
+  padding-left: 3px;
+  scale: 1.2;
+}
+
+.links-social img {
+  width: 80px;
+  height: 80px;
+}
+
+.descarga {
+  text-decoration: none;
+  color: white;
+}
+
+.cv {
+  border-radius: 15px;
+  outline: none;
+  width: 250px;
+  height: 40px;
+  margin-top: 80px;
+  background-color: black;
+  border: none;
+  font-size: 1.1rem;
+  transition: 0.5s;
+}
+
+.cv:hover {
+  scale: 1.1;
+  background-color: rgb(94, 99, 100);
+}
+
+@media (max-width: 720px) {
+  main {
+    width: 100%;
+  }
+  
+  #presentacion {
+    top: 120px;
+    scroll-margin-top: 10rem;
+    width: 100%;
+    display: block;
+    height: auto;
+    margin-bottom: 20px;
+  }
+
+  #presentacion .izquierda {
+    margin-left: 0;
+    padding-left: 30px;
+    width: 95%;
+  }
+
+  #presentacion .izquierda h1 {
+    width: 90%;
+    font-size: 3rem;
+  }
+
+  #presentacion .izquierda h2 {
+    width: 90%;
+    font-size: 2rem;
+  }
+
+  .izquierda p{
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  #presentacion .derecha {
+    width: 100%;
+    margin: 40px auto;
+    text-align: center;
+  }
+
+  .derecha img {
+    width: 40%;
+    height: 20%;
+  }
+  #about-me {
+    scroll-margin-top: 5rem;
+    width: 100%;
+  }
+  .acerca-experiencia {
+    margin-left: 10%;
+  }
+  .icons{
+    margin: auto;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .styleicons {
+    margin: auto;
+    width: 60px;
+    height: 3.2rem;
+    margin: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .icons .styleicons i {
+    padding: 0;
+    line-height: 10px;
+  }
+
+  #experiencia {
+    scroll-margin-top: 8rem;
+    width: 100%;
+  }
+
+  .proyectos {
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+
+  .seccion-proyecto {
+    margin: 20px;
+  }
+
+  .arcade {
+    margin: auto;
+    width: 90%;
+    height: auto;
+    margin-right: 5%;
+  }
+
+  #tecnologias {
+    scroll-margin-top: 5rem;
+    width: 100%;
+    padding: 15px;
+    height: auto;
+  }
+
+  .tecnologias2{
+    height: auto;
+  }
+
+  .tecnologias1 {
+    width: 100%;
+    grid-template-columns: repeat(2,2fr);
+    margin: 0;
+    margin-bottom: 40px;
+    padding: 0;
+  }
+
+  .cajas-tech {
+    width: 100%;
+    padding: 20px 0 20px 10px;
+    margin: 3px;
+    height: 10rem;
+  }
+  .cajas-tech:hover{
+    height: 12rem;
+    padding: 20px 0 20px 10px;
+  }
+  .cajas-tech .img-tech {
+    height: 110px;
+  }
+  .cajas-tech h4 {
+    font-weight: 800;
+    margin: 0;
+  }
+
+  #gustos {
+    scroll-margin-top: 7rem;
+    width: 100%;
+    padding: 0;
+    margin-bottom: 40px;
+  }
+
+  .img-gustos {
+    width: 100%;
+  }
+
+  #formulario {
+    flex-direction: column-reverse; 
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: auto;
+  }
+
+  #formulario form {
+    margin: 0;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  form h2{
+    padding-top: 5px;
+  }
+
+  #formulario .espacio-git{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+  }
+
+  .git{
+    width: 90%;
+    margin: auto;
+  }
+
+ input{
+    margin: 15px auto 0;
+    justify-items: center;
+  
+  }
+
+  .cv {
+    margin-top: 35px;
+    padding: 10px;
+    width: auto;
+    height: auto;
+    align-items: center;
+  }
+
+  form .envio{
+    margin-left: 40% ;
+  }
+
+  #social{
+    padding: 0;
+  }
+
+  #social h2{
+    padding-top: 25px;
+  }
+
+  .social-links{
+    margin: 0;
+    width: auto;
+    height: auto;
+  }
+
+  .links-social img{
+    width: 60px;
+    height: 60px;
+  }
+
+  .img-asideSocialNet{
+    margin-top: 35px;
+    gap: 40px;
+    justify-content: center;
+  }
+}
